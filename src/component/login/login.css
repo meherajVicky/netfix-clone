@@ -1,0 +1,89 @@
+.login {
+  position: relative;
+  height: 100%;
+  background: url("https://acf.geeknetic.es/imgri/imagenes/noticias/2020/18310-netflix-av1-codec-muestra.jpg?f=webp")
+    center no-repeat;
+  background-size: cover;
+}
+.login__background {
+}
+.login__logo {
+  position: fixed;
+  left: 10px;
+  width: 200px;
+  object-fit: contain;
+  padding-left: 30px;
+}
+.login__buttons {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: .3vw;
+}
+.login__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.login__body {
+    position: absolute;
+    top: 30%;
+left: 0;
+right: 0;
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  
+}
+.login__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.login__body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+} 
+.login__body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.login__screenInput{
+    margin: 20px;
+}
+.login__screenInput > form > input{
+padding: 10px;
+outline-width: 0;
+height: 30px;
+width: 30%;
+border: none;
+max-width: 600px;
+}
+.login__button{
+padding: 16px 20px;
+font-size: 1rem;
+color: #fff;
+background-color: #e50914;
+border: none;
+font-weight: 600;
+cursor: pointer;
+}
